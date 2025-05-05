@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML og CSS grunnur">
+    <meta name="author" content="Nemandi">
+    <title>Verkefni 1. Vinnurammi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400;1,600;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/1-new.css">
+  <link rel="stylesheet" href="css/2-grid.css">
+
+    <link rel="stylesheet" href="css/3-table.css">
+    <link rel="icon" type="image/svg" href="images/rwd-icon.svg">
+    <link rel="stylesheet" href="css/4-form.css">
+    <link rel="stylesheet" href="css/5-menus.css">
+    <link rel="stylesheet" href="css/6-iconmoon.css">
+    <link rel="stylesheet" href="css/7-kvikun.css">
+    <link rel="stylesheet" href="css/9-custom.css">
+    
+</head>
+<body>
+  <nav class="topnav">
+    <input type="checkbox" id="toggle">
+    <label for="toggle" class="toplabel">&#9776;</label>
+    
+    <section class="topmenu">
+      <a href="index.html"> </span> Forsíðan <span class="icon-home"></span></a>
+      <a href="#schedule">Dagskrá <span class="icon-calendar"> </span></a>
+      <a href="#buyTicket">kaupa miða <span class="icon-cart"> </span> </a>
+      <a href="#Login">innskráning <span class="icon-user"> </span> </a>
+      <div class="socialbutts">
+        <a href="#"> <span class="icon-twitter"></span> </a>
+        <a href="#"><span class="icon-instagram"></span> </a>
+        <a href="#"><span class="icon-twitter"></span> </a>
+        <a href="#"><span class="icon-github"></span> </a>
+      </div>
+    </section>
+  </nav>
+  
+  <form action="takk.html" method="get">
+  <input type="checkbox" id="toggle1">
+  <label for="toggle1" class="bottomlabel"><center><span class="icon-bubbles4"> </span></center></label>
+  <section class="bottommenu">
+    
+    <fieldset>
+      <legend>spjallbox</legend>
+      nafn:
+      <input type="text" name="nafn" placeholder="Nafn" required>
+
+      Tölvupóstur:
+      <input type="email" name="nafn" placeholder="Tölvupóstur" required>
+      
+      skilaboð hér
+      <p>
+        <textarea name="message" id="#" rows="5" placeholder="Skilaboð hér ..."></textarea>
+      </p>
+        <center>
+          <input type="submit" value="Submit">
+        </center>
+
+    </fieldset>
+  </section>
+  </form>
+  
+    
+
+  <header class="col-2 container">
+      <section>
+        <div class="iconlogo lightSpeedInRight"><span class="icon-logoBBB"></span></div>
+        <h1>Stop coding non-structured web sites. <br> Let's do it right.</h1>
+        <p class="center">
+          <a href="takk.html"class="button">skráning</a>
+        </p>
+        
+      </section>
+      <div class="rotateIn"><img src="images/handlaginn-gaur.png" class="rotateIn"></div>
+      
+  </header>
+  <!--banner-->
+
+  <div class="gbannerB">  
+  <table class="container">
+    <caption>Ho-kago Tea Time</caption>
+    <thead>
+         <tr>
+             <th>Name</th>
+             <th>Instrument</th>
+             <th>when</th>
+            <th>buy tickets</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td data-label="Name">Yui Hirasawa</td>
+          <td data-label="Instrument">Lead Guitar</td>
+          <td data-label="When">22/05 kl 21:00</td>
+          <td data-label="Check in" class="shakeX"><button disabled>Order now</button></td>
+        </tr>
+        <tr>
+          <td data-label="Name">Mio Akiyama</td>
+          <td data-label="Instrument">Bass</td>
+          <td data-label="When">22/05 kl 21:00</td>
+          <td data-label="Check in" class="shakeX"><button>Order now</button></td>
+         </tr>
+        <tr>
+          <td data-label="Name">Ritsu Tainaka</td>
+          <td data-label="Instrument">Drums</td>
+          <td data-label="When">22/05 kl 21:00</td>
+          <td data-label="Check in" class="shakeX"><button>Order now</button></td>
+        </tr>
+        <tr>
+          <td data-label="Name">Tsumugi Kotobuki</td>
+          <td data-label="Instrument">Keyboard</td>
+          <td data-label="When">22/05 kl 21:00</td>
+          <td data-label="Check in" class="shakeX"><button>Order now</button></td>
+        </tr>
+        <tr>
+          <td data-label="Name">Azusa Nakano</td>
+          <td data-label="Instrument">Rhythm Guitar</td>
+          <td data-label="When">22/05 kl 21:00</td>
+          <td data-label="Check in" class="shakeX"><button>Order now</button></td>
+        </tr>
+     </tbody>
+  </table>
+    </section>
+  </div>
+  
+  <center>	
+    <div class="slide" id="slideset6">
+      <div>
+        <br>
+        <h1>slide 1: "ég er elstur"</h1>
+        <p>Þetta er flott Verkefni</p>
+      </div>
+      <div>
+        <br>
+        <h1>slide 2 er versta slide</h1>
+        <p>Tæknó er skemmtilegur 2</p>
+      </div>
+      <div>
+        <br>
+        <h1>slide 3 er best</h1>
+        <p>Vefhönnun er æði</p>
+      </div>
+      <div>
+        <br>
+        <h1>þetta er slide 4 og allt er frábært</h1>
+        <p>áfram liverpool</p>
+      </div>
+    </div>
+      
+  </center>
+  
+ 
+  <main class="container">
+    
+    <section class="col-2">
+      <article>
+        <h1>Fyrirsögn</h1>
+        <h5>Áherslutexti H5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime reiciendis aut repellendus, explicabo quae natus velit sit rem quaerat quibusdam eum tempore, dolore possimus nihil tempora quod ad nesciunt eveniet?</h5>
+        <h2>Undirfyrirsögn</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.
+        <blockquote><em>Blockqoute</em> Aperiam ratione id sunt, et obcaecati numquam repellat, molestias nam sed possimus adipisci similique inventore voluptatum quos repellendus eos reprehenderit nihil laboriosam!</blockquote></p>
+        <h3>Slideshow</h3>
+        <div id="slideset">
+          <img src="images/mynd1.png" alt="">
+          <img src="images/mynd2.jpg" alt="">
+          <img src="images/mynd3.jpg" alt="">
+          <img src="images/mynd4.jpg" alt="">
+          
+        </div> 
+        
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.</p>     
+      
+      </article>
+      <section>
+        <form action="takk.html" method="get">
+          <fieldset class="account-info">
+            <legend>Innskráning</legend>
+            <p class="form-2">
+              <label>
+                Fornnafn:
+                <input type="text" name="fname" required placeholder="First name">
+              </label>
+              <label>
+                Eftirnafn:
+                <input type="text" name="lname" required placeholder="last name">
+              </label>
+            </p>
+            
+            <p>
+              Kyn:
+              <label>
+                <input type="radio" name="kyn" value="Karl" required> Hann|
+              </label>
+              <label>
+                <input type="radio" name="kyn" value="kona" required> Hún |
+              </label>
+              <label>
+                <input type="radio" name="kyn" value="hán" required> Hán
+              </label>
+
+              <p class="form-2">
+                <label>
+                  Tölvupóstur:
+                  <input type="text" name="email" required placeholder="Email">
+                </label>
+                <label>
+                  Símanúmer:
+                  <input type="text" name="tel" required placeholder="Phone number">
+                </label>
+              </p>
+            
+            </p>
+            <p>
+              
+            <section class="form-3">
+              <p>
+                Vörulisti: <br>
+                <select name="vara" required>
+                  <option>Kaffikanna</option>
+                  <option>hitabrúsi</option>
+                  <option>bollar</option>
+                  <option>skálar</option>
+                  <option>lyfrapylsa</option>
+                </select>
+              </p>
+              <p>
+                Tímasetning: <br>
+                <input type="time" name="timestamp" required>
+              </p>
+              <p>
+                Dagsetning: <br>
+                <input type="date" name="datestamp" required>
+              </p>
+            </section>
+            <p>
+              <textarea name="message" id="#" rows="5" placeholder="Skilaboð hér ..."></textarea>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox" name="signtopostlist" onclick="myFunction()" > sjá fleiri möguleika í input select
+                
+                <select value="val" disabled id="val">
+                  <option name="nrl" id="">val1</option>
+                  <option name="nr2" id="">val2</option>
+                  <option name="nr3" id="">val3</option>
+                  <option name="nr4" id="">val4</select>
+                </select>
+                <label>
+            </p>  
+            <div class="center">
+              <p>  
+                <input type="submit" name="submit" value="Login" class="shakeY">
+              </p>
+            </div>  
+            
+          </fieldset>
+        </form>
+
+        <h4>Áherslutexti H4. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis est, reprehenderit labore rerum ratione aliquid illum! Officia nisi esse dolor quis sed porro, amet doloribus, qui odio quas voluptatibus blanditiis.</h4>
+        <h3>algengar spurningar (faq)</h3>
+        
+        <details>
+         
+          <summary>
+            eru önnur sniðug tög í html
+          </summary>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis porro fuga a, modi eum quibusdam reprehenderit veniam culpa ullam neque veritatis repellendus, aliquid debitis numquam! Ipsa sint exercitationem fugiat incidunt.
+        </details>
+        
+        <details>
+          <summary>
+            afhverju er css flott
+          </summary>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis porro fuga a, modi eum quibusdam reprehenderit veniam culpa ullam neque veritatis repellendus, aliquid debitis numquam! Ipsa sint exercitationem fugiat incidunt.
+        </details>
+
+        <details>
+          <summary>
+            hvað gerir mediascreen
+          </summary>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis porro fuga a, modi eum quibusdam reprehenderit veniam culpa ullam neque veritatis repellendus, aliquid debitis numquam! Ipsa sint exercitationem fugiat incidunt.
+        </details>
+
+      </section>
+    </section>
+  </main>
+  <footer class="col-3 container">
+    <nav>
+      <ul>
+        <li><a href="a">Eveniet ducimus pariatur voluptate</li></a>
+        <li><a href="a">Vitae animi, sed provident fuga</li></a>
+        <li><a href="a">Lorem ipsum dolor sit amet consectetur</li></a>
+        <li><a href="a">Provident sit aliquid a consequuntur</li></a>
+      </ul>
+    </nav>
+    <nav>
+      <ul>
+        <li>Eveniet ducimus pariatur voluptate</li>
+        <li>Vitae animi, sed provident fuga</li>
+        <li>Lorem ipsum dolor sit amet consectetur</li>
+        <li>Provident sit aliquid a consequuntur</li>
+      </ul>
+    </nav>
+    <dl>              <!--Description list -->
+      <dt>Nafn</dt>
+        <dd>Þorsteinn Heiðar Hreimsson</dd>
+      <dt>Tölvupóstur</dt>
+        <dd>torsteinnheidar@gmail.com</dd>
+      <dt>Vefhönnun</dt>
+        <dd>VEFÞ2VHB5AU, tölvubraut Tækniskólans</dd>
+    </dl>
+  </footer>
+    <p class="center">2 spönn, haust 2024.</p>
+    <script>
+      function myFunction() {
+        document.getElementById("val").disabled = false;
+      }
+      
+      </script>
+  <div id="Login" class="overlay">
+    <form action="takk.html" method="get" class="popup">
+      <a class="close" href="#">&times;</a>
+      <fieldset>
+        <legend>Innskráning</legend>
+        nafn: 
+        <input type="text" name="nafn">
+        Lykilorð:
+        <input type="password" name="psw">
+
+        <center><input type="submit" value="Innskráning"></center>
+
+      </fieldset>
+    </form>
+
+  </div>
+
+</body>
+</html>
