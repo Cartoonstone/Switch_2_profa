@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?pmadua');
-  src:  url('fonts/icomoon.eot?pmadua#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?pmadua') format('truetype'),
-    url('fonts/icomoon.woff?pmadua') format('woff'),
-    url('fonts/icomoon.svg?pmadua#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?hfk9ah');
+  src:  url('fonts/icomoon.eot?hfk9ah#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?hfk9ah') format('truetype'),
+    url('fonts/icomoon.woff?hfk9ah') format('woff'),
+    url('fonts/icomoon.svg?hfk9ah#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-nintendo_logo:before {
+  content: "\e902";
+  color: #fff;
+}
 .icon-logoBBB:before {
   content: "\e900";
 }
@@ -112,9 +116,15 @@
 .icon-twitter:before {
   content: "\ea96";
 }
+.icon-twitch:before {
+  content: "\ea9f";
+}
 .icon-onedrive:before {
   content: "\eaaf";
 }
 .icon-github:before {
   content: "\eab0";
+}
+.icon-pinterest:before {
+  content: "\ead1";
 }

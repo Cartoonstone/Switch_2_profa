@@ -4,7 +4,7 @@
     margin-bottom: 1rem;
 }
 header {
-	background: var(--nc-bg-2);
+	background: var(--n-red-bg);
 	border-bottom: 1px solid var(--nc-bg-3);
 	padding: 2rem 1.5rem;
 	
