@@ -27,7 +27,7 @@
 
 .icon-nintendo_logo:before {
   content: "\e902";
-  color: #fff;
+  color: var(--nc-bg-4);
 }
 .icon-logoBBB:before {
   content: "\e900";

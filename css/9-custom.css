@@ -1,10 +1,10 @@
 .gbannerB {
-    background-color: var(--green-bg);
+    background-color: var(--n-red-bg);
     padding: 1rem 0;
     margin-bottom: 1rem;
 }
 header {
-	background: var(--n-red-bg);
+	background: var(--nc-bg-2);
 	border-bottom: 1px solid var(--nc-bg-3);
 	padding: 2rem 1.5rem;
 	
@@ -68,7 +68,7 @@ header > *:last-child {
 
 .iconlogo {
     display: block;
-    width: 5rem;
+    width: 20rem;
     margin: 0 auto;
 }
 
