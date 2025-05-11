@@ -104,11 +104,12 @@
 
 
   .slide {
-    background: var(--yellow-bg);
-    bottom: .99em;
+    background: var(--n-red-bg);
+    border-bottom: 1px solid black;
+    
   }
   #slideset6 {
-    height: 10em; position: relative
+    height: 9em; position: relative
   }
   #slideset6 div {
     width: 100%;
