@@ -185,14 +185,11 @@ fieldset {
 
     }
     .topmenu a {
-        padding: 1rem 5rem;
+        padding: 0.5rem 5rem;
         border: 0;
     }
 
-    .topmenu span {
-        padding: 1.4rem 5rem;
-        border: 0;
-    }
+
 
 }
 
