@@ -10,9 +10,9 @@ input[type="button"] {
 	text-align: center;
 	text-decoration: none;
 	white-space: nowrap;
-	background: var(--yellow-bg);
+	background: var(--n-red-bg);
 	color: var(--nc-tx-2);
-	border: 0;
+	border: 1px solid var(--nc-bg-4);
 	border-radius: 4px;
 	box-sizing: border-box;
 	cursor: pointer;
@@ -46,9 +46,11 @@ input[type="reset"]:focus,
 input[type="reset"]:enabled:hover,
 input[type="button"]:focus,
 input[type="button"]:enabled:hover {
-	background: var(--nc-lk-2);
+	background: var(--red-bg);
 }
-
+.button :hover {
+	background: var(--red-bg);
+}
 fieldset {
 	margin-top: 1rem;
 	padding: 2rem;

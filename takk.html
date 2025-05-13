@@ -10,16 +10,104 @@
 
     <title>Verkefni 2. Takk form</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400;1,600;1,800&display=swap" rel="stylesheet">
+  	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/1-new.css">
     <link rel="stylesheet" href="css/2-grid.css">
-    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/3-table.css">
+    <link rel="icon" type="image/svg" href="images/rwd-icon.svg">
     <link rel="stylesheet" href="css/4-form.css">
-    <link rel="stylesheet" href="css/3-custom.css">
+    <link rel="stylesheet" href="css/5-menus.css">
+    <link rel="stylesheet" href="css/6-iconmoon.css">
+    <link rel="stylesheet" href="css/7-kvikun.css">
+    <link rel="stylesheet" href="css/9-custom.css">
 
     <link rel="icon" type="image/svg" href="images/rwd-icon.svg">
 </head>
+<section>
+        <form action="takk.html" method="get">
+          <fieldset class="account-info">
+            <legend>Innskráning</legend>
+            <p class="form-2">
+              <label>
+                Fornnafn:
+                <input type="text" name="fname" required placeholder="First name">
+              </label>
+              <label>
+                Eftirnafn:
+                <input type="text" name="lname" required placeholder="last name">
+              </label>
+            </p>
+            
+            <p>
+              Kyn:
+              <label>
+                <input type="radio" name="kyn" value="Karl" required> Hann|
+              </label>
+              <label>
+                <input type="radio" name="kyn" value="kona" required> Hún |
+              </label>
+              <label>
+                <input type="radio" name="kyn" value="hán" required> Hán
+              </label>
+
+              <p class="form-2">
+                <label>
+                  Tölvupóstur:
+                  <input type="text" name="email" required placeholder="Email">
+                </label>
+                <label>
+                  Símanúmer:
+                  <input type="text" name="tel" required placeholder="Phone number">
+                </label>
+              </p>
+            
+            </p>
+            <p>
+              
+            <section class="form-3">
+              <p>
+                Vörulisti: <br>
+                <select name="vara" required>
+                  <option>Kaffikanna</option>
+                  <option>hitabrúsi</option>
+                  <option>bollar</option>
+                  <option>skálar</option>
+                  <option>lyfrapylsa</option>
+                </select>
+              </p>
+              <p>
+                Tímasetning: <br>
+                <input type="time" name="timestamp" required>
+              </p>
+              <p>
+                Dagsetning: <br>
+                <input type="date" name="datestamp" required>
+              </p>
+            </section>
+            <p>
+              <textarea name="message" id="#" rows="5" placeholder="Skilaboð hér ..."></textarea>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox" name="signtopostlist" onclick="myFunction()" > sjá fleiri möguleika í input select
+                
+                <select value="val" disabled id="val">
+                  <option name="nrl" id="">val1</option>
+                  <option name="nr2" id="">val2</option>
+                  <option name="nr3" id="">val3</option>
+                  <option name="nr4" id="">val4</select>
+                </select>
+                <label>
+            </p>  
+            <div class="center">
+              <p>  
+                <input type="submit" name="submit" value="Login" class="shakeY">
+              </p>
+            </div>  
+            
+          </fieldset>
+        </form>
 <body id="top">
     <br><br>
     <div class="center">

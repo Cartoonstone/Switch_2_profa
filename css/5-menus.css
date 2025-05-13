@@ -29,7 +29,7 @@
     background-color: var(--n-red-bg);
     width: 20rem;
     position: fixed;
-    top: 3.5rem;
+    top: 3rem;
     right: -30rem;
     z-index: 8;
     transition: all .5s ease;
@@ -40,6 +40,7 @@
     text-align: center;
     color: var(--nc-tx-2);
     text-decoration: none;
+    font-weight: bold;
     padding: 1rem 1rem;
     border-bottom: 1px solid var(--nc-tx-2);
 }
@@ -161,7 +162,7 @@ fieldset {
 
 
 
-@media screen and (min-width: 60rem) {
+@media screen and (min-width: 70rem) {
 
     
 
@@ -170,26 +171,28 @@ fieldset {
     }
 
     .topnav {
-        background-color: var(--yellow-bg);
+        background-color: var( --n-red-bg);
     }
     .topmenu{
         display: flex;
         flex-flow: row;
-        justify-content: flex-end;
+        justify-content: center;
+        font-size: 22px;
         width: 100%;
+        height: 5%;
         top: 0;
         right: 0;
 
     }
     .topmenu a {
-        padding: .5rem 3rem;
+        padding: 1rem 5rem;
         border: 0;
     }
-    .socialbutts a {
-        padding: .5rem 1rem;
+
+    .topmenu span {
+        padding: 1.4rem 5rem;
+        border: 0;
     }
-    .socialbutts a:last-child {
-        padding: .5rem 2rem .5rem 1rem;
-    }
+
 }
 

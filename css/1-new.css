@@ -99,10 +99,7 @@ video {
 	margin-bottom: 1rem;
 }
 
-html,input,select,button {
-	/* Set body font family and some finicky elements */
-	font-family: var(--nc-font-sans);
-}
+
 
 body {
 	/* Center body in page */
@@ -120,6 +117,8 @@ body {
 	font-size: 1rem;
 	line-height: 1.5;
 }
+
+
 
 ::selection {
 	/* Set background color for selected text */
@@ -174,11 +173,11 @@ h6 {
 }
 
 a {
-	color: var(--nc-lk-1);
+	color: var(--n-red-bg);
 }
 
 a:hover {
-	color: var(--nc-lk-2);
+	background-color: var(--n-red-bg);
 }
 
 abbr:hover {

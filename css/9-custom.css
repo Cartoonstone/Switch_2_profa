@@ -7,7 +7,6 @@ header {
 	background: var(--nc-bg-2);
 	border-bottom: 1px solid var(--nc-bg-3);
 	padding: 2rem 1.5rem;
-	
 	/*
 	margin: -2rem calc(50% - 50vw) 2rem;
 
@@ -25,7 +24,7 @@ header {
 header h1,
 header h2,
 header h3 {
-    font-weight: 300;
+    font-weight: 400;
 	padding-bottom: 0;
 	border-bottom: 0;
     text-align: center;
@@ -40,7 +39,6 @@ header > *:first-child {
 
 header > *:last-child {
 	margin-bottom: -2.4rem;
-
 }
 
 .center {
@@ -82,7 +80,7 @@ header > *:last-child {
 
     header > *:first-child {
         margin-top: 5rem;
-        padding-top: 0;
+        padding-top: 16%;
     }
     header > *:last-child {
         margin-bottom: -2.9rem;

@@ -104,6 +104,7 @@
 
 
   .slide {
+    padding-bottom: 1%;
     background: var(--n-red-bg);
     border-bottom: 1px solid black;
     
