@@ -45,6 +45,11 @@
     border-bottom: 1px solid var(--nc-tx-2);
 }
 
+.topmenu span {
+    display: none;
+
+}
+
 .bottomlabel {
     position: fixed;
     bottom: .5rem;
@@ -179,7 +184,7 @@ fieldset {
         justify-content: center;
         font-size: 22px;
         width: 100%;
-        height: 5%;
+        height: 5;
         top: 0;
         right: 0;
 
@@ -188,8 +193,11 @@ fieldset {
         padding: 0.5rem 5rem;
         border: 0;
     }
+    .topmenu span {
+        padding: 0.9rem 5rem;
+        border: 0;
 
-
+    }
 
 }
 
