@@ -87,3 +87,23 @@ header > *:last-child {
     
     }
 }
+
+.sw2-mynd {
+    padding-top: 2.5rem;
+}
+
+@media screen and (max-width: 48rem) {
+    .slide-padding {
+        padding-bottom: 10rem;
+}
+}    
+@media screen and (max-width: 40rem) {
+    .slide-padding {
+        padding-bottom: 4.5rem;
+}
+}   
+@media screen and (max-width: 36rem) {
+    .slide-padding {
+        padding-bottom: 1rem;
+}
+}     

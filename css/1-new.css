@@ -1,3 +1,6 @@
+html {
+	scroll-behavior: smooth;
+}
 body{
 	font-family: "Roboto Condensed", sans-serif ;
 }
@@ -351,4 +354,17 @@ img {
 
 .nycmynd {
 	padding-left: .5%;
+}
+
+footer {
+	text-align: center;
+}
+
+.goood-margin {
+	margin-top: 5rem;
+}
+@media screen and (min-width: 80rem) {
+	.goood-margin {
+	margin-top: 10;
+	}
 }

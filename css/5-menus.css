@@ -45,10 +45,7 @@
     border-bottom: 1px solid var(--nc-tx-2);
 }
 
-.topmenu span {
-    display: none;
 
-}
 
 .bottomlabel {
     position: fixed;
@@ -201,3 +198,9 @@ fieldset {
 
 }
 
+@media screen and (max-width: 70rem) {
+    .topmenu span {
+    display: none;
+
+    }
+}
