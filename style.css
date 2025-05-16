@@ -245,3 +245,6 @@ header>:last-child{margin-bottom:-2.9rem}
 @media screen and (max-width:36rem){
 .slide-padding{padding-bottom:1rem}
 }
+@media screen and (max-width:47.813rem){
+    .sw2-mynd {padding-bottom: 3rem;}
+}
