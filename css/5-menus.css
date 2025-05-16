@@ -70,7 +70,7 @@
 
 .bottommenu {
     z-index: 1;
-    background-color: var(--nc-bg-3);
+    background-color: var(--n-red-bg);
     width: 20rem;
     position: fixed;
     bottom:2rem;
